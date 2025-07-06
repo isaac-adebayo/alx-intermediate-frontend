@@ -560,6 +560,10 @@ video {
   display: grid;
 }
 
+.h-full {
+  height: 100%;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -574,6 +578,10 @@ video {
 
 .w-1\/2 {
   width: 50%;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .grid-cols-3 {
@@ -672,6 +680,11 @@ video {
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-4 {
